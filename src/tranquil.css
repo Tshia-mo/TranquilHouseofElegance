@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  .project-tech-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .work {
   padding: 200px 20px;
   background: pink;
@@ -5,4 +12,25 @@
 
 li {
   list-style-type: none;
+}
+
+img {
+  border-radius: 20px;
+  width: 300px;
+}
+
+.things {
+  padding-top: 85px;
+}
+
+p {
+  font-size: 35px;
+}
+
+.picture img {
+  width: 900px;
+}
+
+h1 {
+  font-size: 50px;
 }
