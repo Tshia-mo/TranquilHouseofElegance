@@ -5,7 +5,8 @@
   }
 }
 
-.work {
+.work,
+.overall {
   padding: 200px 20px;
   background: pink;
 }
@@ -24,13 +25,30 @@ img {
 }
 
 p {
-  font-size: 35px;
+  font-size: 28px;
 }
 
-.picture img {
+.picture img,
+.nails1,
+.nails2,
+.nails3,
+.nails4 {
   width: 900px;
 }
 
 h1 {
   font-size: 50px;
+}
+
+.numberthree {
+  background: rgb(118, 200, 224);
+}
+
+.para {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.director {
+  background: pink;
 }
