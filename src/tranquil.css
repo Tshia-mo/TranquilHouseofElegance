@@ -56,3 +56,20 @@ h1 {
 .paragraph-training {
   font-size: 15px;
 }
+
+span {
+  color: pink;
+}
+
+.contact-container {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.est {
+  font-size: 17px;
+}

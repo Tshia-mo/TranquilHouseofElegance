@@ -9,6 +9,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
@@ -23,14 +29,13 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script src="src/index.js"></script>
     <link rel="stylesheet" href="src/tranquil.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="src/logo.webp">logo.webp</a>
+        <a class="navbar-brand" href="index.html">TranquilHouseofElegence</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,20 +50,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="index.html"
-                onclick="toggleSubpage()"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
               >
-              <ul>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" class="subpage" id="subpage"
-                    >about</a
-                  >
-                </li>
-              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
@@ -73,70 +67,74 @@
         </div>
       </div>
     </nav>
-    <div class="text-center work">
-      <h2>WELCOME</h2>
-      <h1>TRANQUIL HOUSE OF ELEGANCE</h1>
-    </div>
+    <h1 class="text-center p-4">Contact Us</h1>
+    <h2 class="text-center">Tranquil House of Elegance</h2>
     <div class="container">
-      <h1 class="text-center">ABOUT US</h1>
-      <div class="row">
+      <div class="row p-4">
         <div class="col-md-6">
-          <p class="text-center">
-            Tranquil House of Elegance, founded by Nompumelelo Tidimalo Mnisi in
-            2014 is an on growing Beauty Parlor that caters for most beauty
-            needs in the industry. We operate as both a stationary and mobile
-            business, providing excellent and professional services both at the
-            salon or in the comfort of your own home.
-          </p>
-        </div>
-        <div class="col-md-6 picture">
-          <img src="src/about1.webp" class="img-fluid" />
-        </div>
-        <div class="col-md-6">
-          <img src="src/nails3.jpg" class="img-fluid" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            Tranquil House Of Elegance is not only a Beauty Business that caters
-            for your beauty needs but we are a brand that is uplifted by the
-            pleasure of being "worn" by you. Our expertise create a platform for
-            us to brand our name on every face, hairstyle, nails, etc, of each
-            and every client that walks through our doors or invites us to
-            theirs. We are proud that we are one of the few salons that cater
-            for both Ethnic and Caucasian women, meeting everyone's needs with
-            the trademark of setting trends everywhere.
-          </p>
+          <h1>Contact Information</h1>
+          <div class="pagelayer-address-holder p-3">
+            <span class="pagelayer-address-icon"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+            <span class="pagelayer-address"
+              >331 Fairway Drive, Roodepoort 237-iq, Roodepoort</span
+            >
+          </div>
+          <div class="pagelayer-email-holder p-3">
+            <span class="pagelayer-email-icon"
+              ><i class="fas fa-envelope"></i
+            ></span>
+            <span class="pagelayer-email">admin@pridespromotions.co.za</span>
+          </div>
+          <div class="pagelayer-phone-holder p-3">
+            <span class="pagelayer-phone-icon"
+              ><i class="fas fa-phone-square-alt"></i
+            ></span>
+
+            <span class="pagelayer-phone">+27 81 684 7646</span>
+          </div>
         </div>
         <div class="col-md-6">
-          <p>
-            We sell good quality Hair at reasonable prices and we do all this
-            with the mentality of servicing "money wise" individuals who always
-            sort out to looking their best. We are one of the best and equally
-            affordable beauty parlours around, rendering services from hair,
-            nails, massages, eyelash extensions, permanent make up and so much
-            more.We deliver over and above your greatest expectations with great
-            customer etiquette.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="overall">
-      <div class="container text-center numberthree">
-        <h1>MORE OF OUR</h1>
-        <div class="row">
-          <h2>NAILS</h2>
-          <div class="col-md-6">
-            <img src="src/nails1.jpg" class="img-fluid nails1" />
-          </div>
-          <div class="col-md-6">
-            <img src="src/nails2.jpg" class="img-fluid nails2" />
-          </div>
-          <div class="col-md-6">
-            <img src="src/nails3.jpg" class="img-fluid nails3" />
-          </div>
-          <div class="col-md-6">
-            <img src="src/nails4.jpg" class="img-fluid nails4" />
-          </div>
+          <form>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+
+            <input type="button" value="Submit" onclick="submitForm()" />
+          </form>
         </div>
       </div>
     </div>
