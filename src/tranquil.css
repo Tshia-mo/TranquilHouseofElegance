@@ -5,12 +5,14 @@
   }
 }
 
-.work,
-.overall {
+.work {
   padding: 200px 20px;
   background: rgb(222, 195, 184);
 }
-
+.overall {
+  padding: 150px 20px;
+  background: rgb(222, 195, 184);
+}
 .first-heading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -37,9 +39,16 @@ p {
 .nails4 {
   width: 900px;
 }
+.contact-list {
+  list-style: none;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 h1 {
   font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .para {
@@ -87,11 +96,20 @@ a {
 }
 
 .head,
-.subhead,
-.contact {
+.subhead {
   color: rgb(222, 195, 184);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.logo img {
+  height: 79px;
+  width: 75px;
+  object-fit: cover;
+}
+.contact {
+  background: rgb(222, 195, 184);
+  color: black;
+}
 .picture {
   width: 500px;
 }
