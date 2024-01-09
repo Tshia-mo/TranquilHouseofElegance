@@ -8,21 +8,17 @@
 .work,
 .overall {
   padding: 200px 20px;
-  background: url(https://png.pngtree.com/back_origin_pic/04/61/98/72d98d45666a92b32183325c4f93d874.jpg);
+  background: rgb(222, 195, 184);
 }
 
-li {
-  list-style-type: none;
-}
 .first-heading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 500px;
   width: 300px;
 }
-
 .things {
   padding-top: 85px;
 }
@@ -50,7 +46,7 @@ h1 {
 
 .director,
 .whole-body {
-  background: pink;
+  background: rgb(222, 195, 184);
 }
 
 .paragraph-training {
@@ -68,7 +64,7 @@ a {
 
 .aboutus {
   background: url(https://cdn.wallpapersafari.com/43/97/u4bhmj.jpg);
-  color: pink;
+  color: rgb(222, 195, 184);
 }
 
 .contact-container {
@@ -77,19 +73,19 @@ a {
 }
 .service-page {
   background: black;
-  color: pink;
+  color: rgb(222, 195, 184);
 }
 .nav-serv {
   color: blue;
 }
 .serv-bar {
-  background: pink;
+  background: rgb(222, 195, 184);
 }
 
 .head,
 .subhead,
 .contact {
-  color: pink;
+  color: rgb(222, 195, 184);
 }
 
 .picture {
