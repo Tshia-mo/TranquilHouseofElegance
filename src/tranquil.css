@@ -8,11 +8,14 @@
 .work,
 .overall {
   padding: 200px 20px;
-  background: pink;
+  background: url(https://png.pngtree.com/back_origin_pic/04/61/98/72d98d45666a92b32183325c4f93d874.jpg);
 }
 
 li {
   list-style-type: none;
+}
+.first-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -25,7 +28,7 @@ img {
 }
 
 p {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .picture img,
@@ -40,25 +43,18 @@ h1 {
   font-size: 50px;
 }
 
-.numberthree {
-  background: rgb(118, 200, 224);
-}
-
 .para {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.director {
+.director,
+.whole-body {
   background: pink;
 }
 
 .paragraph-training {
   font-size: 15px;
-}
-
-span {
-  color: pink;
 }
 
 a {
@@ -68,4 +64,106 @@ a {
 
 .est {
   font-size: 17px;
+}
+
+.aboutus {
+  background: url(https://cdn.wallpapersafari.com/43/97/u4bhmj.jpg);
+  color: pink;
+}
+
+.contact-container {
+  background: black;
+  color: white;
+}
+.service-page {
+  background: black;
+  color: pink;
+}
+.nav-serv {
+  color: blue;
+}
+.serv-bar {
+  background: pink;
+}
+
+.head,
+.subhead,
+.contact {
+  color: pink;
+}
+
+.picture {
+  width: 500px;
+}
+.p-qkx7611 {
+  width: 50%;
+  display: inline-block;
+  padding-top: px;
+  padding-right: px;
+  padding-bottom: 10px;
+  padding-left: px;
+}
+@media (max-width: 500px) {
+  .p-qkx7611 {
+    width: 100%;
+  }
+}
+
+.p-m1y8357 {
+  width: 50%;
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+@media (max-width: 500px) {
+  .p-m1y8357 {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+}
+
+.p-23y5251 {
+  width: 50%;
+  display: inline-block;
+  padding-top: px;
+  padding-right: px;
+  padding-bottom: 10px;
+  padding-left: px;
+}
+@media (max-width: 500px) {
+  .p-23y5251 {
+    width: 100%;
+  }
+}
+
+.p-flp86 {
+  width: 50%;
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+@media (max-width: 500px) {
+  .p-flp86 {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+}
+
+.p-qfz8277 {
+  width: 100%;
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
 }

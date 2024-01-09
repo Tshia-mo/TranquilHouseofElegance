@@ -69,7 +69,7 @@
     </nav>
     <h1 class="text-center p-4">Contact Us</h1>
     <h2 class="text-center">Tranquil House of Elegance</h2>
-    <div class="container">
+    <div class="container contact">
       <div class="row p-4">
         <div class="col-md-6">
           <h1>Contact Information</h1>
@@ -96,54 +96,97 @@
           </div>
         </div>
         <div class="col-md-6">
-          <form>
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your Name"
-              required
-            />
+          <h1 class="subhead">Get In Touch</h1>
+          <h1 class="subhead">Drop Us A Line</h1>
+          <form
+            class="pagelayer-contact-form"
+            id="contact-form"
+            name="Contact Form"
+            onsubmit="return pagelayer_contact_submit(this, event)"
+            method="POST"
+          >
+            <div class="pagelayer-contact-holder">
+              <div
+                pagelayer-id="qkx7611"
+                class="p-qkx7611 pagelayer-contact_item"
+              >
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                  fdprocessedid="pm9r44"
+                />
+              </div>
+              <div
+                pagelayer-id="m1y8357"
+                class="p-m1y8357 pagelayer-contact_item"
+              >
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  fdprocessedid="25vpg7"
+                />
+              </div>
+              <div
+                pagelayer-id="23y5251"
+                class="p-23y5251 pagelayer-contact_item"
+              >
+                <input
+                  type="text"
+                  placeholder="Phone"
+                  name="phone"
+                  fdprocessedid="znomnm"
+                />
+              </div>
+              <div pagelayer-id="flp86" class="p-flp86 pagelayer-contact_item">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                  fdprocessedid="s4pafk"
+                />
+              </div>
+              <div
+                pagelayer-id="qfz8277"
+                class="p-qfz8277 pagelayer-contact_item"
+              >
+                <textarea
+                  name="message"
+                  rows="6"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+            <input type="hidden" name="cfa-pagelayer-id" value="kjn1715" />
+            <input type="hidden" name="cfa-post-id" value="38" />
+            <input type="hidden" name="cfa-custom-template" value="true" />
 
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
+            <div class="pagelayer-contact-submit-holder">
+              <button
+                type="submit"
+                form="contact-form"
+                class="pagelayer-contact-submit-btn pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-small {{icon_position}}"
+                fdprocessedid="j46cke"
+              >
+                <i
+                  class="fa fa-circle-o-notch fa-spin"
+                  style="display: none; margin-right: 5px"
+                ></i>
 
-            <label for="subject">Subject:</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              placeholder="Subject"
-              required
-            />
-
-            <label for="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Your Message"
-              rows="4"
-              required
-            ></textarea>
-
-            <input type="button" value="Submit" onclick="submitForm()" />
+                <span class="pagelayer-btn-text">Submit</span>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </div>
     <div class="contact-container text-center">
       <div class="container">
-        <h1 class="p-3">Tranquil House of Elegance</h1>
+        <h1 class="p-3 head">Tranquil House of Elegance</h1>
         <div class="row">
           <div class="col-md-6">
-            <h2 class="p-3">QUICK LINKS</h2>
+            <h2 class="p-3 subhead">QUICK LINKS</h2>
             <ul>
               <li class="pb-3">
                 <a href="index.html">Home</a>
@@ -160,7 +203,7 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <h2>GET IN TOUCH</h2>
+            <h2 class="subhead">GET IN TOUCH</h2>
             <div class="pagelayer-address-holder p-3">
               <span class="pagelayer-address-icon"
                 ><i class="fas fa-map-marker-alt"></i
