@@ -26,6 +26,9 @@ img {
 p {
   font-size: 20px;
 }
+.social-links {
+  gap: 10px;
+}
 
 .picture img,
 .nails1,
@@ -45,7 +48,8 @@ h1 {
 }
 
 .director,
-.whole-body {
+.whole-body,
+.navbar {
   background: rgb(222, 195, 184);
 }
 
