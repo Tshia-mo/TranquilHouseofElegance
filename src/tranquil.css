@@ -21,6 +21,9 @@ img {
   border-radius: 500px;
   width: 300px;
 }
+.heading {
+  font-size: 40px;
+}
 .things {
   padding-top: 85px;
 }
@@ -36,11 +39,17 @@ p {
 .nails1,
 .nails2,
 .nails3,
-.nails4 {
+.nails4,
+.nails5 {
   width: 900px;
 }
 .contact-list {
   list-style: none;
+}
+
+.nail,
+.eyelash {
+  text-decoration: underline;
 }
 h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
