@@ -93,7 +93,8 @@ a {
   background: black;
   color: white;
 }
-.service-page {
+.service-page,
+button {
   background: black;
   color: rgb(222, 195, 184);
 }
