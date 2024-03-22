@@ -105,9 +105,7 @@
           <h1 class="sub-head">Drop Us A Line</h1>
           <form
             class="pagelayer-contact-form"
-            id="contact-form"
-            name="Contact Form"
-            onsubmit="return pagelayer_contact_submit(this, event)"
+            action="https://api.web3forms.com/submit"
             method="POST"
           >
             <div class="pagelayer-contact-holder">
@@ -115,41 +113,26 @@
                 pagelayer-id="qkx7611"
                 class="p-qkx7611 pagelayer-contact_item"
               >
-                <input
-                  type="text"
-                  placeholder="Name"
-                  name="name"
-                  fdprocessedid="pm9r44"
-                />
+                <input type="text" placeholder="Name" name="name" required />
               </div>
               <div
                 pagelayer-id="m1y8357"
                 class="p-m1y8357 pagelayer-contact_item"
               >
-                <input
-                  type="email"
-                  placeholder="Email"
-                  name="email"
-                  fdprocessedid="25vpg7"
-                />
+                <input type="email" placeholder="Email" name="email" required />
               </div>
               <div
                 pagelayer-id="23y5251"
                 class="p-23y5251 pagelayer-contact_item"
               >
-                <input
-                  type="text"
-                  placeholder="Phone"
-                  name="phone"
-                  fdprocessedid="znomnm"
-                />
+                <input type="text" placeholder="Phone" name="phone" required />
               </div>
               <div pagelayer-id="flp86" class="p-flp86 pagelayer-contact_item">
                 <input
                   type="text"
                   placeholder="Subject"
                   name="subject"
-                  fdprocessedid="s4pafk"
+                  required
                 />
               </div>
               <div
@@ -160,20 +143,17 @@
                   name="message"
                   rows="6"
                   placeholder="Message"
+                  required
                 ></textarea>
               </div>
             </div>
-            <input type="hidden" name="cfa-pagelayer-id" value="kjn1715" />
-            <input type="hidden" name="cfa-post-id" value="38" />
-            <input type="hidden" name="cfa-custom-template" value="true" />
-
+            <input
+              type="hidden"
+              name="access_key"
+              value="3aefe859-1c16-42f9-ad3a-570d0156d041"
+            />
             <div class="pagelayer-contact-submit-holder">
-              <button
-                type="submit"
-                form="contact-form"
-                class="pagelayer-contact-submit-btn pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-small {{icon_position}}"
-                fdprocessedid="j46cke"
-              >
+              <button type="submit">
                 <i
                   class="fa fa-circle-o-notch fa-spin"
                   style="display: none; margin-right: 5px"
@@ -264,7 +244,7 @@
           ></a>
         </div>
       </div>
-      <p class="est">@2023</p>
+      <p class="est">©2024</p>
     </div>
   </body>
 </html>
