@@ -125,7 +125,7 @@ button {
   display: inline-block;
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-left: 0px;
   border-radius: 1px solid black;
 }
@@ -159,4 +159,7 @@ button {
     padding-bottom: 10px;
     padding-left: 0px;
   }
+}
+.pagelayer-contact-form {
+  display: flex;
 }
