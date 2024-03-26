@@ -120,13 +120,14 @@ button {
   background: rgb(222, 195, 184);
   color: black;
 }
-.p-qkx7611 {
-  width: 50%;
+.inputBox {
+  width: 100%;
   display: inline-block;
-  padding-top: px;
-  padding-right: px;
+  padding-top: 0px;
+  padding-right: 0px;
   padding-bottom: 10px;
-  padding-left: px;
+  padding-left: 0px;
+  border-radius: 1px solid black;
 }
 @media (max-width: 500px) {
   .p-qkx7611 {
@@ -134,14 +135,6 @@ button {
   }
 }
 
-.p-m1y8357 {
-  width: 50%;
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
 @media (max-width: 500px) {
   .p-m1y8357 {
     width: 100%;
@@ -152,28 +145,12 @@ button {
   }
 }
 
-.p-23y5251 {
-  width: 50%;
-  display: inline-block;
-  padding-top: px;
-  padding-right: px;
-  padding-bottom: 10px;
-  padding-left: px;
-}
 @media (max-width: 500px) {
   .p-23y5251 {
     width: 100%;
   }
 }
 
-.p-flp86 {
-  width: 50%;
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
 @media (max-width: 500px) {
   .p-flp86 {
     width: 100%;
@@ -182,13 +159,4 @@ button {
     padding-bottom: 10px;
     padding-left: 0px;
   }
-}
-
-.p-qfz8277 {
-  width: 100%;
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 0px;
 }
